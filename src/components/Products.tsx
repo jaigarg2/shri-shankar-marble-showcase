@@ -8,35 +8,35 @@ import greenMarble from "@/assets/green-marble.jpg";
 const products = [
   {
     id: 1,
-    name: "Carrara Marble",
-    type: "Premium White Marble",
-    size: "3m x 2m slabs available",
+    name: "Premium White Marble",
+    type: "Pure White Marble",
+    size: "Large slabs available",
     image: carraraMarble,
-    description: "Classic Italian marble with elegant grey veining"
+    description: "Premium quality white marble with subtle natural veining"
   },
   {
     id: 2,
-    name: "Black Galaxy Granite",
-    type: "Premium Black Granite",
-    size: "3m x 2m slabs available",
-    image: blackGranite,
-    description: "Luxurious black granite with golden speckles"
+    name: "Forest Green Marble", 
+    type: "Premium Green Marble",
+    size: "Large slabs available",
+    image: greenMarble,
+    description: "Rich emerald green marble with distinctive white veining patterns"
   },
   {
     id: 3,
-    name: "Travertine Stone",
-    type: "Natural Travertine",
+    name: "Black Galaxy Granite",
+    type: "Premium Black Granite", 
     size: "Various sizes available",
-    image: travertine,
-    description: "Warm beige stone with natural patterns"
+    image: blackGranite,
+    description: "Deep black granite with elegant golden speckles"
   },
   {
     id: 4,
-    name: "Forest Green Marble",
-    type: "Premium Green Marble",
-    size: "3m x 2m slabs available",
-    image: greenMarble,
-    description: "Sophisticated green marble with white veining"
+    name: "Speckled Grey Granite",
+    type: "Natural Grey Granite",
+    size: "Custom sizes available", 
+    image: travertine,
+    description: "Durable grey granite with natural white speckled pattern"
   }
 ];
 
