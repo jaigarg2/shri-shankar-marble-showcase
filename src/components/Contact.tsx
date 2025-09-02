@@ -4,13 +4,14 @@ import { MapPin, Phone, Clock, MessageCircle } from "lucide-react";
 
 const Contact = () => {
   const openWhatsApp = () => {
-    window.open('https://wa.me/919999999999?text=Hello! I am interested in your marble and granite collection.', '_blank');
+    window.open('https://wa.me/919810935309?text=Hello! I am interested in your marble and granite collection.', '_blank');
   };
 
   const openGoogleMaps = () => {
     // Replace with your actual Google Maps location
-    const address = "123 Stone Market Street, Marble District, City 123456";
-    const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+    const address = "A-31, 70/1/2, Mangol Pur Kalan, New Delhi, Delhi 110085";
+    //const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+    const mapsUrl = `https://maps.app.goo.gl/2Sa8TpSZZxQqt1tAA`;
     window.open(mapsUrl, '_blank');
   };
 
@@ -41,9 +42,9 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-primary mb-2">Our Location</h3>
                   <p className="text-muted-foreground">
-                    123 Stone Market Street<br />
-                    Marble District, City - 123456<br />
-                    Near Central Plaza
+                    A-31, 70/1/2, <br />
+                    Mangol Pur Kalan, Delhi 110085<br />
+                    Mangol pur Marble Market.
                   </p>
                   <Button 
                     variant="ghost" 
@@ -64,8 +65,8 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-primary mb-2">Contact Details</h3>
                   <p className="text-muted-foreground mb-2">
-                    Phone: +91 99999 99999<br />
-                    Email: info@shrishankarmarble.com
+                    Phone: +91 9810935309<br />
+                    Email: shrishankarmarble1@gmail.com
                   </p>
                   <Button 
                     onClick={openWhatsApp}
@@ -86,8 +87,8 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-primary mb-2">Opening Hours</h3>
                   <div className="text-muted-foreground space-y-1">
-                    <p>Monday - Saturday: 9:00 AM - 7:00 PM</p>
-                    <p>Sunday: 10:00 AM - 6:00 PM</p>
+                    <p>Tuesday - Saturday: 9:00 AM - 7:00 PM</p>
+                    <p>Monday: Closed</p>
                     <p className="text-gold text-sm mt-2">Always call before visiting</p>
                   </div>
                 </div>
@@ -108,7 +109,7 @@ const Contact = () => {
                     Find Us Here
                   </h3>
                   <p className="text-muted-foreground mb-4">
-                    Located in the heart of the stone market district
+                    Located in the heart of the Mangol pur Marble Market
                   </p>
                   <Button onClick={openGoogleMaps} className="btn-outline-gold">
                     Open in Google Maps
