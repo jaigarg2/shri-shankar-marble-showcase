@@ -1,4 +1,4 @@
-import showroomImage from "@/assets/showroom.jpg";
+import showroomImage from "@/assets/Main-Shop.jpg";
 
 const About = () => {
   return (
