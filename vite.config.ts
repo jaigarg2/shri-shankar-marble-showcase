@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/lander", // ✅ required for Netlify + custom domains
+  base: "./", // ✅ required for Netlify + custom domains
 
   server: {
     host: "::",
