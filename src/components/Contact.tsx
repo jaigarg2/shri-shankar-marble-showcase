@@ -8,7 +8,10 @@ const Contact = () => {
   };
 
   const openGoogleMaps = () => {
-    window.open('https://maps.google.com/?q=Shri+Shankar+Marble+House', '_blank');
+    // Replace with your actual Google Maps location
+    const address = "123 Stone Market Street, Marble District, City 123456";
+    const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+    window.open(mapsUrl, '_blank');
   };
 
   return (

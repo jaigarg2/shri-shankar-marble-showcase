@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import carraraMarble from "@/assets/carrara-marble.jpg";
 import blackGranite from "@/assets/black-granite.jpg";
 import travertine from "@/assets/travertine.jpg";
@@ -101,9 +102,12 @@ const Products = () => {
           <p className="text-muted-foreground mb-6">
             Looking for specific dimensions or custom cuts? We offer tailored solutions for your project needs.
           </p>
-          <button className="btn-outline-gold">
+          <Button 
+            onClick={() => window.location.href = '/catalogue'}
+            className="btn-outline-gold"
+          >
             View Complete Catalog
-          </button>
+          </Button>
         </div>
       </div>
     </section>
