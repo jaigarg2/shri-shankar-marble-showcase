@@ -1,22 +1,22 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import carraraMarble from "@/assets/carrara-marble.jpg";
-import blackGranite from "@/assets/black-granite.jpg";
-import travertine from "@/assets/travertine.jpg";
-import greenMarble from "@/assets/green-marble.jpg";
+import pWhite from "@/assets/P-White-Granite.jpg";
+import kotlaGranite from "@/assets/Kotla-Granite.jpg";
+import jaisalmer from "@/assets/Jaisalmer-Yellow.jpg";
+import greenMarble from "@/assets/Bardoda-green.jpg";
 
 const products = [
   {
     id: 1,
-    name: "Premium White Marble",
-    type: "Pure White Marble",
+    name: "Premium White Granite",
+    type: "P White Granite",
     size: "Large slabs available",
-    image: carraraMarble,
-    description: "Premium quality white marble with subtle natural veining"
+    image: pWhite,
+    description: "Premium quality white granite with Black speckles. Most Commercially Sold"
   },
   {
     id: 2,
-    name: "Forest Green Marble", 
+    name: "Bardoda Green Marble", 
     type: "Premium Green Marble",
     size: "Large slabs available",
     image: greenMarble,
@@ -24,19 +24,19 @@ const products = [
   },
   {
     id: 3,
-    name: "Black Galaxy Granite",
-    type: "Premium Black Granite", 
+    name: "Kotla Black Granite",
+    type: "Kotla Black Granite", 
     size: "Various sizes available",
-    image: blackGranite,
-    description: "Deep black granite with elegant golden speckles"
+    image: kotlaGranite,
+    description: "Deep black granite with elegant Coffee Speckles"
   },
   {
     id: 4,
-    name: "Speckled Grey Granite",
-    type: "Natural Grey Granite",
+    name: "Jaisalmer Yellow Stone",
+    type: "Natural Yellow Granite",
     size: "Custom sizes available", 
-    image: travertine,
-    description: "Durable grey granite with natural white speckled pattern"
+    image: jaisalmer,
+    description: "Durable yellow granite with natural dark viens."
   }
 ];
 
