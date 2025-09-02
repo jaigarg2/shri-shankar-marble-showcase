@@ -10,45 +10,64 @@ import greenMarble from "@/assets/green-marble.jpg";
 const allProducts = [
   {
     id: 1,
-    name: "Carrara Marble",
-    type: "Premium White Marble",
-    sizes: ["3m x 2m", "2m x 1m", "Custom sizes"],
+    name: "Premium White Marble",
+    type: "Pure White Marble",
+    sizes: ["Large slabs", "Medium slabs", "Custom cuts"],
     image: carraraMarble,
-    description: "Classic Italian marble with elegant grey veining",
+    description: "Premium quality white marble with subtle natural veining, perfect for countertops and flooring",
     price: "Available on request",
-    origin: "Italy"
+    origin: "India"
   },
   {
     id: 2,
-    name: "Black Galaxy Granite",
-    type: "Premium Black Granite",
-    sizes: ["3m x 2m", "2m x 1m", "Custom sizes"],
-    image: blackGranite,
-    description: "Luxurious black granite with golden speckles",
+    name: "Forest Green Marble", 
+    type: "Premium Green Marble",
+    sizes: ["Large slabs", "Medium slabs", "Custom sizes"],
+    image: greenMarble,
+    description: "Rich emerald green marble with distinctive white veining patterns, ideal for luxury applications",
     price: "Available on request",
     origin: "India"
   },
   {
     id: 3,
-    name: "Travertine Stone",
-    type: "Natural Travertine",
-    sizes: ["Various sizes available", "Custom cuts"],
-    image: travertine,
-    description: "Warm beige stone with natural patterns",
-    price: "Available on request",
-    origin: "Turkey"
-  },
-  {
-    id: 4,
-    name: "Forest Green Marble",
-    type: "Premium Green Marble",
-    sizes: ["3m x 2m", "2m x 1m", "Custom sizes"],
-    image: greenMarble,
-    description: "Sophisticated green marble with white veining",
+    name: "Black Galaxy Granite",
+    type: "Premium Black Granite", 
+    sizes: ["Large slabs", "Medium slabs", "Custom cuts"],
+    image: blackGranite,
+    description: "Deep black granite with elegant golden speckles, perfect for kitchen countertops",
     price: "Available on request",
     origin: "India"
   },
-  // Additional products can be added here
+  {
+    id: 4,
+    name: "Speckled Grey Granite",
+    type: "Natural Grey Granite",
+    sizes: ["Various sizes", "Custom dimensions", "Standard slabs"], 
+    image: travertine,
+    description: "Durable grey granite with natural white speckled pattern, excellent for commercial use",
+    price: "Available on request",
+    origin: "India"
+  },
+  {
+    id: 5,
+    name: "Golden Sandstone Strips",
+    type: "Natural Sandstone",
+    sizes: ["Strip format", "Custom lengths", "Various widths"],
+    image: carraraMarble,
+    description: "Beautiful golden yellow sandstone in convenient strip format, perfect for wall cladding",
+    price: "Available on request", 
+    origin: "India"
+  },
+  {
+    id: 6,
+    name: "Mixed Marble Collection",
+    type: "Various Marble Types",
+    sizes: ["Large inventory", "Multiple varieties", "Custom selection"],
+    image: blackGranite,
+    description: "Extensive collection of marble slabs in various colors and patterns, visit our yard for selection",
+    price: "Available on request",
+    origin: "India"
+  }
 ];
 
 const Catalogue = () => {
