@@ -10,6 +10,9 @@ import greenMarble from "@/assets/Bardoda-green.jpg";
 import kitchenPartition from "@/assets/Kitchen-Partition-Slabs.jpg";
 import mainShop from "@/assets/Main-Shop.jpg";
 import shawarkaSlabs from "@/assets/Shawarka-Slabs.jpg";
+import carraraMarble from "@/assets/carrara-marble.jpg";
+import blackGranite from "@/assets/black-granite.jpg";
+import travertine from "@/assets/travertine.jpg";
 
 const productDetails = {
   "premium-white-granite": {
