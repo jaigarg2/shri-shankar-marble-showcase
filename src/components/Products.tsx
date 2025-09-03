@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 import pWhite from "@/assets/P-White-Granite.jpg";
 import kotlaGranite from "@/assets/Kotla-Granite.jpg";
 import jaisalmer from "@/assets/Jaisalmer-Yellow.jpg";
@@ -8,52 +9,58 @@ import greenMarble from "@/assets/Bardoda-green.jpg";
 const products = [
   {
     id: 1,
+    slug: "premium-white-granite",
     name: "Premium White Granite",
     type: "P White Granite",
     size: "Large slabs available",
     image: pWhite,
-    description: "Premium quality white granite with Black speckles. Most Commercially Sold"
+    description: "Premium quality white granite with Black speckles. Most Commercially Sold + Custom Cuts Available"
   },
   {
     id: 2,
+    slug: "bardoda-green-marble",
     name: "Bardoda Green Marble", 
     type: "Premium Green Marble",
     size: "Large slabs available",
     image: greenMarble,
-    description: "Rich emerald green marble with distinctive white veining patterns"
+    description: "Rich emerald green marble with distinctive white veining patterns + Precision Custom Cutting"
   },
   {
     id: 3,
+    slug: "kotla-black-granite",
     name: "Kotla Black Granite",
     type: "Kotla Black Granite", 
     size: "Various sizes available",
     image: kotlaGranite,
-    description: "Deep black granite with elegant Coffee Speckles"
+    description: "Deep black granite with elegant Coffee Speckles + Custom Dimensions Available"
   },
   {
     id: 4,
+    slug: "jaisalmer-yellow-stone",
     name: "Jaisalmer Yellow Stone",
     type: "Natural Yellow Granite",
     size: "Custom sizes available", 
     image: jaisalmer,
-    description: "Durable yellow granite with natural dark viens."
+    description: "Durable yellow granite with natural dark viens + Expert Custom Cutting Services"
   }
 ];
 
 const Products = () => {
+  const navigate = useNavigate();
+
   return (
     <section id="products" className="py-20 marble-bg">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 fade-in">
           <span className="text-gold font-medium text-sm uppercase tracking-wider">
-            Current Stock
+            Current Stock + Custom Cutting Services
           </span>
           <h2 className="font-display text-4xl lg:text-5xl font-bold text-primary mt-2 mb-6">
             Featured Collection
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Discover our carefully curated selection of premium marble and granite. 
-            Each piece represents the finest quality natural stone materials.
+            <span className="text-gold font-medium"> Each piece can be custom cut to your exact specifications</span> - our specialty service.
           </p>
         </div>
         
@@ -89,7 +96,10 @@ const Products = () => {
                   <span className="text-xs text-muted-foreground">
                     {product.size}
                   </span>
-                  <button className="text-gold hover:text-gold-dark font-medium text-sm transition-colors duration-200">
+                  <button 
+                    onClick={() => navigate(`/product/${product.slug}`)}
+                    className="text-gold hover:text-gold-dark font-medium text-sm transition-colors duration-200"
+                  >
                     View Details →
                   </button>
                 </div>
@@ -100,10 +110,11 @@ const Products = () => {
         
         <div className="text-center mt-12 fade-in">
           <p className="text-muted-foreground mb-6">
-            Looking for specific dimensions or custom cuts? We offer tailored solutions for your project needs.
+            <span className="text-gold font-medium">Specializing in custom cuts and tailored solutions</span> for your project needs. 
+            Any dimension, any specification - we deliver precision results.
           </p>
           <Button 
-            onClick={() => window.location.href = '/catalogue'}
+            onClick={() => navigate('/catalogue')}
             className="btn-outline-gold"
           >
             View Complete Catalog

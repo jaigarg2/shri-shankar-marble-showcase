@@ -96,30 +96,39 @@ const Contact = () => {
             </Card>
           </div>
           
-          {/* Map Placeholder */}
+          {/* Google Maps Embed */}
           <div className="slide-in-right">
             <Card className="h-full min-h-[500px] shadow-medium border-0 overflow-hidden bg-card/80 backdrop-blur-sm">
-              <div className="relative h-full bg-muted/20 flex items-center justify-center">
-                {/* Map placeholder - in a real implementation, you would integrate Google Maps */}
-                <div className="text-center p-8">
-                  <div className="bg-gold/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <MapPin className="w-8 h-8 text-gold" />
+              <div className="relative h-full">
+                <iframe
+                  src="https://www.google.com/maps?q=28.729031675638937,77.07847427431383&z=17&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, minHeight: '500px' }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Shri Shankar Marble House Location"
+                  className="rounded-lg"
+                />
+                
+                {/* Overlay for better integration */}
+                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm p-3 rounded-lg shadow-medium">
+                  <div className="flex items-center space-x-2">
+                    <MapPin className="w-4 h-4 text-gold" />
+                    <span className="text-sm font-medium text-primary">Our Location</span>
                   </div>
-                  <h3 className="font-display text-xl font-semibold text-primary mb-2">
-                    Find Us Here
-                  </h3>
-                  <p className="text-muted-foreground mb-4">
-                    Located in the heart of the Mangol pur Marble Market
+                  <p className="text-xs text-muted-foreground mt-1">
+                    Mangol Pur Marble Market
                   </p>
-                  <Button onClick={openGoogleMaps} className="btn-outline-gold">
-                    Open in Google Maps
+                  <Button 
+                    onClick={openGoogleMaps} 
+                    size="sm"
+                    className="btn-gold mt-2 text-xs px-3 py-1 h-auto"
+                  >
+                    Get Directions
                   </Button>
                 </div>
-                
-                {/* Decorative elements */}
-                <div className="absolute top-4 left-4 w-2 h-2 bg-gold rounded-full opacity-60"></div>
-                <div className="absolute top-8 right-6 w-1 h-1 bg-gold rounded-full opacity-40"></div>
-                <div className="absolute bottom-6 left-8 w-1.5 h-1.5 bg-gold rounded-full opacity-50"></div>
               </div>
             </Card>
           </div>

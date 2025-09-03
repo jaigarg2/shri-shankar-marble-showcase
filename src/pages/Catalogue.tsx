@@ -10,6 +10,7 @@ import greenMarble from "@/assets/green-marble.jpg";
 const allProducts = [
   {
     id: 1,
+    slug: "premium-white-marble",
     name: "Premium White Marble",
     type: "Pure White Marble",
     sizes: ["Large slabs", "Medium slabs", "Custom cuts"],
@@ -20,6 +21,7 @@ const allProducts = [
   },
   {
     id: 2,
+    slug: "forest-green-marble", 
     name: "Forest Green Marble", 
     type: "Premium Green Marble",
     sizes: ["Large slabs", "Medium slabs", "Custom sizes"],
@@ -30,6 +32,7 @@ const allProducts = [
   },
   {
     id: 3,
+    slug: "black-galaxy-granite",
     name: "Black Galaxy Granite",
     type: "Premium Black Granite", 
     sizes: ["Large slabs", "Medium slabs", "Custom cuts"],
@@ -40,6 +43,7 @@ const allProducts = [
   },
   {
     id: 4,
+    slug: "speckled-grey-granite",
     name: "Speckled Grey Granite",
     type: "Natural Grey Granite",
     sizes: ["Various sizes", "Custom dimensions", "Standard slabs"], 
@@ -50,6 +54,7 @@ const allProducts = [
   },
   {
     id: 5,
+    slug: "golden-sandstone-strips",
     name: "Golden Sandstone Strips",
     type: "Natural Sandstone",
     sizes: ["Strip format", "Custom lengths", "Various widths"],
@@ -60,6 +65,7 @@ const allProducts = [
   },
   {
     id: 6,
+    slug: "mixed-marble-collection",
     name: "Mixed Marble Collection",
     type: "Various Marble Types",
     sizes: ["Large inventory", "Multiple varieties", "Custom selection"],
@@ -185,7 +191,7 @@ const Catalogue = () => {
               Don't see what you're looking for? We have many more varieties in stock.
             </p>
             <Button 
-              onClick={() => openWhatsApp("your complete stone collection")}
+              onClick={() => openWhatsApp("custom cutting services and complete stone collection")}
               className="btn-outline-gold"
             >
               Contact for More Options
