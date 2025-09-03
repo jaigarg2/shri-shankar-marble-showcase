@@ -185,7 +185,7 @@ const Catalogue = () => {
               Don't see what you're looking for? We have many more varieties in stock.
             </p>
             <Button 
-              onClick={() => openWhatsApp("your complete stone collection")}
+              onClick={() => openWhatsApp("custom cutting services and complete stone collection")}
               className="btn-outline-gold"
             >
               Contact for More Options

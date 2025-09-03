@@ -24,17 +24,16 @@ const About = () => {
               </p>
               
               <p>
+                <span className="text-gold font-medium">Our specialty is precision custom cutting services.</span> We don't just sell stone - we transform it to your exact specifications. 
                 Our expertise spans across a diverse collection of natural stones, from the 
-                pristine whites of Carrara marble to the bold elegance of Indian granite. 
-                Each piece in our collection is carefully selected and quality-assured to 
-                meet the highest standards of durability and beauty.
+                pristine whites to the bold elegance of premium granite, all available with professional custom cutting.
               </p>
               
               <p>
-                We believe that every space deserves the timeless elegance of natural stone. 
+                <span className="text-gold font-medium">Every dimension, every specification - we deliver precision results.</span> 
                 Whether you're designing a luxury kitchen, an elegant bathroom, or a 
-                commercial space that makes a statement, our team is dedicated to helping 
-                you find the perfect stone solution.
+                commercial space that makes a statement, our custom cutting expertise ensures 
+                the perfect fit for your vision.
               </p>
             </div>
             
@@ -45,7 +44,7 @@ const About = () => {
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-gold mb-2">500+</div>
-                <div className="text-sm text-muted-foreground">Happy Clients</div>
+                <div className="text-sm text-muted-foreground">Custom Projects</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-gold mb-2">100+</div>

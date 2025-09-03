@@ -27,12 +27,12 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Premium Marble & Granite for Every Space
+            Premium Marble & Granite + <span className="text-gold font-medium">Expert Custom Cutting</span>
           </p>
           
           <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto">
             Discover exquisite natural stone materials crafted with heritage and expertise. 
-            Transform your spaces with our premium collection of marble and granite.
+            <span className="text-gold font-medium">Specializing in precision custom cuts</span> to transform your spaces with our premium collection.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
