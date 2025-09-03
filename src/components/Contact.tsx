@@ -101,7 +101,7 @@ const Contact = () => {
             <Card className="h-full min-h-[500px] shadow-medium border-0 overflow-hidden bg-card/80 backdrop-blur-sm">
               <div className="relative h-full">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.8649161682475!2d77.07847427431383!3d28.729031675638937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0b8b4b4b4b4b%3A0x4b4b4b4b4b4b4b4b!2sA-31%2C%2070%2F1%2F2%2C%20Mangol%20Pur%20Kalan%2C%20Delhi%2C%20110085!5e0!3m2!1sen!2sin!4v1699999999999!5m2!1sen!2sin"
+                  src="https://www.google.com/maps?q=28.729031675638937,77.07847427431383&z=17&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0, minHeight: '500px' }}
