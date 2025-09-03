@@ -101,7 +101,7 @@ const Contact = () => {
             <Card className="h-full min-h-[500px] shadow-medium border-0 overflow-hidden bg-card/80 backdrop-blur-sm">
               <div className="relative h-full">
                 <iframe
-                  src="https://www.google.com/maps?q=28.729031675638937,77.07847427431383&z=17&output=embed"
+                  src="https://www.google.com/maps?q=28.6947342,77.1038929&z=17&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0, minHeight: '500px' }}
