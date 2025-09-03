@@ -80,17 +80,17 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-gold" />
-                <span className="text-primary-foreground/80">+91 99999 99999</span>
+                <span className="text-primary-foreground/80">+91 9810935309</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-gold" />
-                <span className="text-primary-foreground/80">info@shrishankarmarble.com</span>
+                <span className="text-primary-foreground/80">shrishankarmarble1@gmail.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-gold mt-0.5" />
                 <span className="text-primary-foreground/80">
-                  123 Stone Market Street<br />
-                  Marble District, City - 123456
+                  A-31, Marble Market<br />
+                  Mangolpur Kalan, Delhi - 110085
                 </span>
               </div>
             </div>
