@@ -104,8 +104,8 @@ const Footer = () => {
             © {currentYear} Shri Shankar Marble House. All rights reserved.
           </div>
           <div className="flex items-center space-x-6 text-sm text-primary-foreground/60">
-            <span>Monday - Saturday: 9:00 AM - 7:00 PM</span>
-            <span>Sunday: 10:00 AM - 6:00 PM</span>
+            <span>Tuesday - Sunday: 9:00 AM - 8:30 PM</span>
+            <span>Monday: Closed</span>
           </div>
         </div>
       </div>
